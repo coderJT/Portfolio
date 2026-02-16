@@ -58,7 +58,7 @@ const BentoTile = ({ children, className = "" }: { children: ReactNode, classNam
 
 export const SkillsSection = () => {
     return (
-        <SectionContainer id="skills" title="SKILLS" className="relative">
+        <SectionContainer id="skills" title="SKILLS" className="relative" sidebarClassName="bg-accent">
             <DigitalCurrents />
 
             <div className="relative z-10">

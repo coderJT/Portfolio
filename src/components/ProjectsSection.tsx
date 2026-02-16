@@ -63,7 +63,7 @@ const projects = [
 
 export const ProjectsSection = () => {
     return (
-        <SectionContainer id="works" title="WORKS" sidebarClassName="bg-accent">
+        <SectionContainer id="works" title="WORKS">
             <div className="grid grid-cols-1 gap-12">
                 {projects.map((project, index) => (
                     <motion.div
