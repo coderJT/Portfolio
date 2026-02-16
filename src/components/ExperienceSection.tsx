@@ -9,7 +9,7 @@ export const ExperienceSection = () => {
         {
             company: "Boostorder KL",
             position: "Data Analyst Intern",
-            period: "Present",
+            period: "Nov 2025 - Feb 2026 (3 months)",
             description: [
                 "Handling and maintaining Looker dashboards, optimizing performance through documentation reviews.",
                 "Performing data tally tests and User Acceptance Testing (UAT) to ensure data integrity.",
@@ -42,7 +42,7 @@ export const ExperienceSection = () => {
             proofLink: "/codestart.png"
         },
         {
-            title: "🥉 3rd Place – Monash FIT3080 Pacman Competition",
+            title: "🥉 3rd Place – Monash FIT3080 Pacman Competition (2025)",
             detail: "Reached 3rd place in the FIT3080 Pacman competition involving A* search algorithms. Competed against a cohort of over 200 participants, demonstrating complex algorithmic strategy and rapid debugging.",
             proofLink: "/pacman.pdf"
         }

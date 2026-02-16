@@ -6,7 +6,7 @@ import { Github, Linkedin, Mail } from "lucide-react";
 
 export const ContactSection = () => {
     return (
-        <SectionContainer id="contact" title="CONTACT" sidebarClassName="bg-black">
+        <SectionContainer id="contact" title="CONTACT">
             <div className="max-w-4xl text-center md:text-left">
                 <motion.h2
                     initial={{ opacity: 0, scale: 0.9 }}
