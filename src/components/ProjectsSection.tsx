@@ -9,7 +9,7 @@ const projects = [
         title: "Monash University FAQ Chatbot",
         date: "July 2025 - August 2025",
         description: "Developed an AI-powered chatbot using Retrieval-Augmented Generation (RAG) to provide students with instant answers from the Monash website. Built a custom web scraper to collect and structure FAQ content for efficient retrieval.",
-        impact: "Reduced student search time from 5–10 minutes to under 2 minutes.",
+        impact: "Reduced student search time from 30-40 minutes to under 5 minutes.",
         tech: ["RAG", "Playwright", "Streamlit", "Gemini", "Python"],
         sourceLink: "https://github.com/coderJT/FAQMonash",
         liveLink: "https://monash-faq-chatbot.streamlit.app"
@@ -18,7 +18,7 @@ const projects = [
         title: "NutriTrack Health Monitoring",
         date: "March 2025 - May 2025",
         description: "Assembled an AI-powered Android app for health monitoring and personalized nutrition coaching. Automated dietary recommendations and motivational messages using Gemini API.",
-        impact: "Created a user-friendly admin dashboard with full user authentication.",
+        impact: "Created a secure and user-friendly health application with full user and admin controls.",
         tech: ["Kotlin", "Jetpack Compose", "Room Database", "Gemini API", "MVVM"],
         sourceLink: "https://github.com/coderJT",
         liveLink: null // Restricted access
@@ -27,8 +27,8 @@ const projects = [
         title: "Trendwork",
         date: "Recent",
         description: "Advanced Job insight scraper providing market trends and analytics. Implemented complex data engineering pipelines to process and visualize employment data.",
-        impact: "Leveraged serverless architecture for scalable data processing and insights.",
-        tech: ["Python", "Scrapy", "BigQuery", "Cloud Run Functions", "Cloud Scheduler"],
+        impact: "Leveraged serverless architecture in Google Cloud Platform for scalable data processing and insights demonstration.",
+        tech: ["Python", "PatchRight", "BigQuery", "Cloud Run Functions", "Cloud Scheduler", "OpenTelemetry"],
         sourceLink: "https://github.com/coderJT/Trendwork",
         liveLink: "https://jobstreet-dashboard-576780345034.asia-southeast1.run.app"
     },
@@ -36,8 +36,8 @@ const projects = [
         title: "Blog.co",
         date: "Recent",
         description: "Minimalistically blogging application focused on performance and clean writing experience. Built with Next.js and Supabase for a seamless full-stack experience.",
-        impact: "Achieved high performance and a clean UI for writers.",
-        tech: ["TypeScript", "Next.js", "Supabase", "Tailwind"],
+        impact: "Produced a high performance and a clean user interface for writers to demonstrate their creativity.",
+        tech: ["TypeScript", "Next.js", "Supabase", "Tailwind", "shadcn/ui"],
         sourceLink: "https://github.com/coderJT/Blog.co",
         liveLink: "https://blogging-wine-tau.vercel.app"
     },
@@ -54,7 +54,7 @@ const projects = [
         title: "Booklyn E-commerce",
         date: "Recent",
         description: "High-performance modern e-commerce platform for bookstores with Stripe integration and state-of-the-art state management.",
-        impact: "Modern architectural pattern with Next.js 15 and Tailwind 4.",
+        impact: "Produced a comprehensive E-commerce platform from full payment workflow to admin order management.",
         tech: ["Next.js", "TypeScript", "Prisma", "Zustand", "Stripe"],
         sourceLink: "https://github.com/coderJT/Booklyn",
         liveLink: "https://ecommerce-81o96oe4j-coderjts-projects.vercel.app"

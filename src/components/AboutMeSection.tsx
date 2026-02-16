@@ -28,7 +28,7 @@ export const AboutMeSection = () => {
                             My journey in technology is driven by a profound curiosity that extends far beyond the lecture hall or the office. I am constantly exploring the latest breakthroughs in AI and cloud architecture, often spending my free time building side projects that challenge my understanding of scalable systems.
                         </p>
                         <p className="text-lg text-foreground/80 leading-relaxed">
-                            For me, code is more than just a tool for building applications—it's a medium for solving complex puzzles and automating the mundane. I take pride in writing maintainable, clean code that stands the test of time, always seeking the most elegant solution to every problem.
+                            For me, code is more than just a tool for building applications, it's a medium for solving complex puzzles and automating the mundane. I take pride in writing maintainable, clean code that stands the test of time, always seeking the most elegant solution to every problem.
                         </p>
                     </motion.div>
 
