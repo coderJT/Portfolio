@@ -30,9 +30,22 @@ export const ExperienceSection = () => {
     };
 
     const certifications = [
-        { title: "2nd Place – Monash Pacman Competition", detail: "Across Australia and Malaysia campuses (S2 2025)" },
-        { title: "Winner – CodeStart Competition", detail: "Monash 2023" },
-        { title: "Winner – Kaggle Music Genre Prediction", detail: "Monash 2024" }
+        {
+            title: "🏆 1st Place – MUM FIT1043 S1 2024 Kaggle Competition",
+            detail: "Multi-class music genre classification challenge on Kaggle with over 179 participants. Developed a predictive model using RandomForest and XGBoost, achieving top placement through iterative feature engineering and performance tuning.",
+            link: "https://www.kaggle.com/competitions/mum-fit1043-s1-2024/overview",
+            proofLink: "/musicgenre.png"
+        },
+        {
+            title: "🏆 1st Place – Monash Codestart Malaysia (S2 2023)",
+            detail: "Secured 1st place in the Codestart programming competition. Evaluated on problem-solving, programming logic, and algorithmic efficiency. Led development of a clean, modular solution under timed conditions.",
+            proofLink: "/codestart.png"
+        },
+        {
+            title: "🥉 3rd Place – Monash FIT3080 Pacman Competition",
+            detail: "Reached 3rd place in the FIT3080 Pacman competition involving A* search algorithms. Competed against a cohort of over 200 participants, demonstrating complex algorithmic strategy and rapid debugging.",
+            proofLink: "/pacman.pdf"
+        }
     ];
 
     return (
@@ -87,14 +100,39 @@ export const ExperienceSection = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                 >
-                    <h3 className="text-2xl font-black mb-8 flex items-center gap-3">
-                        <Award className="w-8 h-8" /> CERTIFICATIONS & AWARDS
+                    <h3 className="text-2xl font-black mb-8 flex items-center gap-3 mt-16 pt-16 border-t border-foreground/10">
+                        <Award className="w-8 h-8" /> COMPETITIONS & AWARDS
                     </h3>
-                    <div className="grid md:grid-cols-2 gap-6">
+                    <div className="grid grid-cols-1 gap-6">
                         {certifications.map((cert) => (
-                            <div key={cert.title} className="p-6 border border-foreground/10 hover:border-foreground transition-colors bg-foreground/5">
-                                <h4 className="text-xl font-bold mb-2">{cert.title}</h4>
-                                <p className="text-foreground/60 font-medium italic">{cert.detail}</p>
+                            <div key={cert.title} className="p-8 border border-foreground/10 hover:border-foreground transition-all bg-foreground/5 flex flex-col md:flex-row justify-between items-start gap-6 group">
+                                <div className="max-w-3xl">
+                                    <div className="flex items-center gap-3 mb-4">
+                                        <h4 className="text-2xl font-black leading-tight group-hover:text-accent transition-colors">{cert.title}</h4>
+                                        {cert.proofLink && (
+                                            <a
+                                                href={cert.proofLink}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="p-2 bg-foreground/10 hover:bg-accent hover:text-white rounded-full transition-all"
+                                                title="View Certificate Proof"
+                                            >
+                                                <Award className="w-5 h-5" />
+                                            </a>
+                                        )}
+                                    </div>
+                                    <p className="text-foreground/70 font-medium text-lg leading-relaxed">{cert.detail}</p>
+                                </div>
+                                {cert.link && (
+                                    <a
+                                        href={cert.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="shrink-0 text-foreground font-black uppercase text-sm tracking-widest flex items-center gap-2 border-2 border-foreground px-4 py-2 hover:bg-foreground hover:text-background transition-colors"
+                                    >
+                                        Leaderboard <span className="text-xl">→</span>
+                                    </a>
+                                )}
                             </div>
                         ))}
                     </div>
