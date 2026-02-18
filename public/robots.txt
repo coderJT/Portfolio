@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://coderjt.com
+
+# Sitemaps
+Sitemap: https://coderjt.com/sitemap.xml
