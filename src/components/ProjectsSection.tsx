@@ -15,6 +15,15 @@ const projects = [
         liveLink: "https://monash-faq-chatbot.streamlit.app"
     },
     {
+        title: "ProstAPP",
+        date: "Final Year Project",
+        description: "Built a personal FYP prostate cancer risk-assessment web app using a custom machine learning model trained with real-world Malaysian hospital data, alongside patient dashboards, assessment workflows, medical history, education resources, appointment booking, and multilingual support.",
+        impact: "Integrated React, Express, Supabase, Python XAI services, and Groq-powered LLM explainability features to support model predictions with LIME/SHAP explanations.",
+        tech: ["React", "Vite", "Express", "Supabase", "Python", "Groq", "LIME", "SHAP"],
+        sourceLink: "https://github.com/coderJT/prostapp_web",
+        liveLink: "https://prostapp-web.vercel.app"
+    },
+    {
         title: "NutriTrack Health Monitoring",
         date: "March 2025 - May 2025",
         description: "Assembled an AI-powered Android app for health monitoring and personalized nutrition coaching. Automated dietary recommendations and motivational messages using Gemini API.",
