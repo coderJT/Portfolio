@@ -41,6 +41,26 @@ const projects: Project[] = [
             {
                 src: "/project-screenshots/prostapp-03.png",
                 alt: "ProstAPP report page screenshot from GitHub"
+            },
+            {
+                src: "/project-screenshots/prostapp-04.png",
+                alt: "ProstAPP admin dashboard insights screenshot from GitHub"
+            },
+            {
+                src: "/project-screenshots/prostapp-05.png",
+                alt: "ProstAPP admin dashboard overview screenshot from GitHub"
+            },
+            {
+                src: "/project-screenshots/prostapp-06.png",
+                alt: "ProstAPP FTIR spectrum result screenshot from GitHub"
+            },
+            {
+                src: "/project-screenshots/prostapp-07.png",
+                alt: "ProstAPP history page screenshot from GitHub"
+            },
+            {
+                src: "/project-screenshots/prostapp-08.png",
+                alt: "ProstAPP prediction page screenshot from GitHub"
             }
         ]
     },
@@ -60,6 +80,14 @@ const projects: Project[] = [
             {
                 src: "/project-screenshots/trendwork-02.png",
                 alt: "Trendwork job map view screenshot from GitHub"
+            },
+            {
+                src: "/project-screenshots/trendwork-03.png",
+                alt: "Trendwork automatic job aggregation screenshot from GitHub"
+            },
+            {
+                src: "/project-screenshots/trendwork-04.png",
+                alt: "Trendwork job trends skills screenshot from GitHub"
             }
         ]
     },
@@ -83,6 +111,14 @@ const projects: Project[] = [
             {
                 src: "/project-screenshots/skyrescue-03.png",
                 alt: "SkyRescue AI tactical map and drone thoughts screenshot from GitHub"
+            },
+            {
+                src: "/project-screenshots/skyrescue-04.png",
+                alt: "SkyRescue AI search coverage overview screenshot from GitHub"
+            },
+            {
+                src: "/project-screenshots/skyrescue-05.png",
+                alt: "SkyRescue AI daylight mission progress screenshot from GitHub"
             }
         ]
     },
@@ -150,6 +186,18 @@ const projects: Project[] = [
             {
                 src: "/project-screenshots/booklyn-03.png",
                 alt: "Booklyn admin dashboard screenshot from GitHub"
+            },
+            {
+                src: "/project-screenshots/booklyn-04.png",
+                alt: "Booklyn admin configuration screenshot from GitHub"
+            },
+            {
+                src: "/project-screenshots/booklyn-05.png",
+                alt: "Booklyn orders page screenshot from GitHub"
+            },
+            {
+                src: "/project-screenshots/booklyn-06.png",
+                alt: "Booklyn receipt page screenshot from GitHub"
             }
         ]
     },
