@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { Download } from "lucide-react";
 
 export const HeroSection = () => {
     const navItems = [
@@ -25,6 +26,14 @@ export const HeroSection = () => {
                     <p className="text-xl md:text-3xl font-light max-w-2xl leading-relaxed">
                         A <span className="font-bold italic">Data Science Student</span> focusing on <span className="font-bold">Full Stack Development</span>, <span className="font-bold">Data Analytics</span>, and <span className="font-bold">Data Engineering</span>.
                     </p>
+                    <a
+                        href="/JustinTanJingYi-Resume.pdf"
+                        download
+                        className="mt-10 inline-flex w-fit items-center gap-3 border-2 border-foreground bg-foreground px-5 py-3 font-black text-background transition-colors hover:bg-background hover:text-foreground"
+                    >
+                        <Download size={20} />
+                        DOWNLOAD RESUME
+                    </a>
                 </motion.div>
             </div>
 

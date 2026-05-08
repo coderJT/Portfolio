@@ -14,7 +14,7 @@ export const ContactSection = () => {
                     transition={{ duration: 0.8 }}
                     className="text-6xl md:text-8xl font-black mb-12 tracking-tighter"
                 >
-                    LET'S <br /> CONNECT.
+                    LET&apos;S <br /> CONNECT.
                 </motion.h2>
 
                 <div className="flex flex-col md:flex-row gap-12 items-center md:items-start mb-16">

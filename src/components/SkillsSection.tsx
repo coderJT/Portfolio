@@ -47,8 +47,6 @@ const DigitalCurrents = () => (
 
 const BentoTile = ({ children, className = "" }: { children: ReactNode, className?: string }) => (
     <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
         whileHover={{ y: -5, transition: { duration: 0.2 } }}
         className={`bg-background border-2 border-foreground/10 p-8 hover:border-foreground/40 transition-all shadow-[4px_4px_0px_0px_rgba(0,0,0,0.05)] hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,0.1)] ${className}`}
     >
@@ -63,13 +61,9 @@ export const SkillsSection = () => {
 
             <div className="relative z-10">
                 <div className="mb-16">
-                    <motion.h3
-                        initial={{ opacity: 0, x: -20 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        className="text-5xl md:text-7xl font-black uppercase tracking-tighter mb-4"
-                    >
+                    <h3 className="text-5xl md:text-7xl font-black uppercase tracking-tighter mb-4">
                         Technical <br /> <span className="text-accent italic">Arsenal</span>
-                    </motion.h3>
+                    </h3>
                     <div className="h-2 w-32 bg-foreground" />
                 </div>
 
@@ -100,7 +94,7 @@ export const SkillsSection = () => {
                                 <div className="space-y-2 text-background/90 text-lg leading-relaxed font-medium">
                                     <p>• Proactive Teamwork (Always asking if others need help)</p>
                                     <p>• Eager to Learn & Explore on my own</p>
-                                    <p>• "Efficiently Lazy" (High-ROI Automation focus)</p>
+                                    <p>• &quot;Efficiently Lazy&quot; (High-ROI Automation focus)</p>
                                     <p>• Proactively seeking to add value & take on new challenges</p>
                                     <p>• Creativity driven by curiosity</p>
                                 </div>
@@ -125,7 +119,7 @@ export const SkillsSection = () => {
                                 Maintainable <br /> & Extendable
                             </h4>
                             <p className="text-lg text-foreground/70 font-medium leading-relaxed max-w-md">
-                                I desire to write good code that isn't just functional, but built to last—easily extendable, clean, and highly maintainable for long-term scalability.
+                                I desire to write good code that isn&apos;t just functional, but built to last—easily extendable, clean, and highly maintainable for long-term scalability.
                             </p>
                         </div>
                         {/* Minimalist Graphic Element */}
